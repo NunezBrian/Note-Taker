@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Note Taker</h1>
+        <div id="buttons">
+            <button id="new-note" class="button">New Note</button>
+            <button id="save-note" class="button hidden">Save Note</button>
+            <button id="clear-form" class="button hidden">Clear Form</button>
+            <button id="clear-all-notes" class="button">Clear All Notes</button>
+        </div>
+    </header>
+    <div class="main-content">
+        <div id="notes-list" class="notes-sidebar">
+            <!-- Existing notes will be loaded here -->
+        </div>
+        <div id="note-editor" class="note-editor hidden">
+            <input type="text" id="note-title" placeholder="Note Title">
+            <textarea id="note-text" placeholder="Write your note here..."></textarea>
+        </div>
+    </div>
+    <script src="/scripts.js"></script>
+</body>
+</html>
