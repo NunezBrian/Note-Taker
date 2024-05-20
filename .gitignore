@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+*.log.*
+pids
+*.pid
+*.pid.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional coverage directory
+coverage/
+
+# Environment variables file
+.env
+
+# Optional REPL history
+.node_repl_history
+
+# Package-lock and yarn.lock files (optional, but you might want to keep these in the repo to ensure deterministic builds)
+# Uncomment if you do not want to include these files
+# package-lock.json
+# yarn.lock
+
+# Ignore build output
+dist/
+build/
+out/
